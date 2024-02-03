@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css for navigation bar */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.images{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_sub_img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.bus{
+    background-color: rgb(216,78,85);
+    height: 80px;
+    width: 90px;
+    margin: 3px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+}
+
+.train{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 80px;
+    width: 90px;
+    border: transparent;
+    background-color: transparent;
+}
+
+
+/* css for account and help */
+.links{
+
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.links a{
+    color: gray;
+    text-decoration: none;
+    margin: 40px;
+}
+/* css for background pic div */
+.allu_container{
+    width: 100%;
+    height: max-content;
+}
+
+/* background image of allu arjun  */
+.allu{
+    width: 100%;
+  height:100%; /* Adjust as needed */
+  background-image: url('images/HeroImageV2_C.png');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repetition */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+/*  css for heading in class n0_1*/
+.no_1 h1{
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+/* div for seclection portion */
+
+.selection{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 140px;
+    height: 110px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+/* css for input portions */
+input{
+  height: 110px;  
+  border:1px solid gray;
+  font-size: large;
+  width: 100%;
+
+}
+.frominput{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: transparent;
+}
+
+.from{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 25%;
+}
+.to{
+    width: 25%;
+}
+
+/* css for date portion */
+.date{
+    width: 25%;
+    height: 100%;
+}
+.date_choose{
+    width: 100%;
+    border-color: transparent;
+}
+/* css for search button */
+.sdiv{
+    height: 100%;
+    width: 25%;
+}
+.search{
+    height: 110px;
+    width: 100%;
+    color: white;
+    font-size: large;
+    background-color:  rgb(216,78,85);
+    border:1px solid transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+
+/* css for image gallery */
+.top_imagegal{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0 0 8px 6px #999;
+    padding: 2%;
+}
+/* css for trending offer */
+.trend h1{
+ font-size: xx-large;
+ font-weight: 100;
+ opacity: .6;
+}
+
+/* css for view all button */
+.view{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.view button{
+    border-color: transparent;
+    background-color: transparent;
+    color: blue;
+    font-size: xx-large;
+}
+
+
