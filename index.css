@@ -206,12 +206,36 @@ input{
     padding:10px 10px 10px 10px;
 }
 .slides{
-    width: 23%;
     height: 150px;
-    background-color: black;
-   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(26,75,161), rgb(49,103,197));
+    color: white;
+
+}
+.xbyx{
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+}
+.xbyx>img{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.first{
+    border: 1px dotted white;
+    display: inline-block;
 }
 
+.Bus_slide{
+    background-color: transparent;
+    border-color: #99999976;
+    color: white;
+    height: 20px;
+    width: 40px;
+}
 /* css for advt */
 .advt{
     display: flex;
