@@ -157,14 +157,19 @@ input{
 
 
 
-/* css for image gallery */
+/* css for image crousal */
+.image_gallery{
+    width: 70%;
+    height: max-content;
+    box-shadow: 0 0 8px 6px #999;
+    border-radius: 30px;
+    margin: auto;
+}
 .top_imagegal{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     margin: auto;
-    border-radius: 30px;
-    box-shadow: 0 0 8px 6px #999;
     padding: 2%;
 }
 /* css for trending offer */
@@ -187,5 +192,318 @@ input{
     color: blue;
     font-size: xx-large;
 }
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px 10px 10px 10px;
+}
+.slides{
+    width: 23%;
+    height: 150px;
+    background-color: black;
+   
+}
+
+/* css for advt */
+.advt{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.advt>div>img{
+    width: 1200px;
+    height: 100px;
+}
 
 
+/* css rail background pic */
+.rail_container{
+    height: max-content;
+    width: 90%;
+    margin: 30px;
+}
+.sec_rail_container{
+    width: 100%;
+}
+.rail{
+    width: 50%;
+    float: right;
+    height: 700px;
+    background-image: url(images/railPop.svg);
+    background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repetition */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   margin: auto;
+}
+.heading{
+    width: 35%;
+    height: max-content;  
+}
+.lines{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.train_ticket{
+    display: flex;
+    color:  rgb(216,78,85);;
+    margin-left: 70px;
+    margin-top: 40px;
+    align-items: center;
+}
+.train_ticket>div>img{
+    height: 35px;
+}
+.ticket{
+    margin-left:10px ;
+}
+
+.rule{
+    background-color:  rgb(216,78,85);
+    width: 230px;
+    height: 3px;
+    margin-left: 65px;
+}
+
+.paragraph{
+    margin-left: 70px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: larger;
+    font-weight:100;
+}
+
+
+.three_lines{
+    margin-left: 70px;
+}
+
+.aut{
+    display: flex;
+    align-items: center;
+}
+
+.aut>img{
+    margin-right: 9px;
+    margin-top: 12px;
+}
+.aut>h1{
+    margin-top: 12px;
+}
+
+.bookt{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.bookt>button{
+    background-color:rgb(216,78,85) ;
+
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 12px;
+    color: white;
+    font-size: larger
+}
+
+
+
+/* css for red_container */
+.red_container{
+    display: flex;
+    
+    margin: 30px;
+    background-color: rgb(216,78,85);
+    width: 80%;
+    margin: auto;
+    height: 350px;
+    border-radius: 25px;
+}
+.enjoy{
+    display: flex;
+}
+.enjoy>h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+}
+
+.white_container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    width: 350px;
+}
+.white_container>div{
+    display: flex;
+    padding: 10px; 
+}
+.white_container>div>i{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.white_container>div>p{
+    opacity: .7;
+    font-size: large;
+}
+.star{
+    color: #999;
+    margin: 20px;
+    line-height: 30px;
+}
+.qr_down{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+
+.down_conatainer{
+    margin-left: 40px;
+    width: 120px;
+}
+.down_conatainer>div>h3{
+    color: white;
+    padding-bottom: 20px;
+}
+.scan{
+    width: 100px;
+}
+.scan>div>h3{
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* css for primo section */
+.primo_container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding-top: 70px;
+}
+
+.graph_container{
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+
+.graph{
+    display: flex;
+ background-image: linear-gradient(rgb(45,72,151),rgb(119,70,136));
+ align-items: center;
+ padding: 20px;
+ border-radius: 10px;
+ color: white;
+ line-height: 25px;
+ width: 1/3;
+}
+.graph>div>p{
+    margin-top: 10px;
+}
+.graph>img{
+    margin-right: 14px;
+}
+
+
+
+/* css for partner container */
+
+.partner_container{
+    width: 80%;
+    margin:70px auto 70px auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+.RTC_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.view_all{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 15px;
+    border-width: .5px;
+}
+.view_all:hover{
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.logo_container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo_part>div>img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.rtc{
+    height: 40px;
+    width: 6rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border-style: none;
+}
+.rtc:hover{
+    background-color: gray;
+}
+
+
+
+/* css for operators */
+.operators{
+    width: 80%;
+    margin:70px auto 70px auto;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.table>div>button{
+    height: 50px;
+    width: 180px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: transparent;
+    font-size: larger;
+    font-weight: 300;
+    opacity: .8;
+}
+
+.table>div>button:hover{
+    background-color: #999999;
+}
