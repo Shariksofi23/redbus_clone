@@ -507,3 +507,15 @@ input{
 .table>div>button:hover{
     background-color: #999999;
 }
+
+
+/* css for global pertners */
+
+.global_presence_container{
+    width: 80%;
+    margin:70px auto 70px auto;
+}
+.RTC_container>div>h1{
+    font-weight: 400;
+}
+
