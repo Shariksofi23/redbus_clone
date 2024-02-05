@@ -15,14 +15,14 @@
             <div class="logo"><img src="images/rdc-redbus-logo.svg" alt=""></div>
             <div>|</div>
            <div class="nav_sub_img">
-            <div><button class="bus"><img src="images/rb_vertical.svg" alt=""><p>Bus Ticket</p></button></div>
+            <div><button class="bus"><img src="images/rb_vertical.svg" alt="" class="bus_logo"><p>Bus Ticket</p></button></div>
             <!-- <div><img src="images/ryde_vertical.svg" alt=""></div> -->
             <div><button  class="train"><img src="images/rail_vertical.svg" alt=""><p>Train Ticket</p></button></div>
            </div>
         </div>
         <div class="links">
-            <div><a href="#"><i class="fa-solid fa-headphones" style="color: #afb0b1;"></i>help</a></div>
-            <div><a href="#"><i class="fa-solid fa-user" style="color: #c9c9ca;"></i>account</a></div>
+            <div><a href="#"><i class="fa-solid fa-headphones" style="color: #afb0b1;"></i>Help</a></div>
+            <div><a href="#"><i class="fa-solid fa-user" style="color: #c9c9ca;"></i>Account</a></div>
         </div>
     </nav>
 <!-- 
@@ -250,15 +250,90 @@
      </div>
 
      <div class="logo_container">
-      <div class="logo_part">  <div><img src="images/Colombia.svg" alt=""></div><div><button class="rtc">COLOMBIA</button> </div></div>
-        <div class="logo_part"><div><img src="images/India.svg" alt=""></div><div><button class="rtc">INDIA</button> </div></div>
-        <div class="logo_part"><div><img src="images/Indonesia.svg" alt=""></div><div><button class="rtc">INDONESIA</button> </div></div>
-        <div class="logo_part"><div><img src="images/Malaysia.svg" alt=""></div><div><button class="rtc">MALAYSIA</button> </div></div>
-        <div class="logo_part"><div><img src="images/Peru.svg" alt=""></div><div><button class="rtc">PERU</button> </div></div>
-        <div class="logo_part"><div><img src="images/Singapore.svg" alt=""></div><div><button class="rtc">SINGAPORE</button> </div></div>
-     </div>
-</section>
-</div>
+         <div class="logo_part">  <div><img src="images/Colombia.svg" alt=""></div><div><button class="rtc">COLOMBIA</button> </div></div>
+         <div class="logo_part"><div><img src="images/India.svg" alt=""></div><div><button class="rtc">INDIA</button> </div></div>
+         <div class="logo_part"><div><img src="images/Indonesia.svg" alt=""></div><div><button class="rtc">INDONESIA</button> </div></div>
+         <div class="logo_part"><div><img src="images/Malaysia.svg" alt=""></div><div><button class="rtc">MALAYSIA</button> </div></div>
+         <div class="logo_part"><div><img src="images/Peru.svg" alt=""></div><div><button class="rtc">PERU</button> </div></div>
+         <div class="logo_part"><div><img src="images/Singapore.svg" alt=""></div><div><button class="rtc">SINGAPORE</button> </div></div>
+        </div>
+        
+    </div>
 
+
+     <!-- book bus ticket online -->
+
+     <section class="book_container">
+          <div class="book_ticket">
+             <h1>BOOK BUS TICKETS ONLINE</h1>
+          </div>
+
+          <div class="book_tick_para">
+            <p>redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus ticket and train ticket booking service, With over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travelers. A leading platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17 years across thousands of cities and lakhs of routes in India. <br>
+
+                Booking a bus ticket online on redBus app or website is very simple. You can download the redBus app or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services available. You can then compare prices, ratings & amenities, select your preferred seat, boarding & dropping points and make the payment using multiple payment options like UPI, debit or credit card, net banking and more. With redBus you can be assured of safe & secure payment methods and guaranteed travel with the best seat and bus operator o<span id="dots">...</span><span id="more">perator of your choice. Once the bus booking payment is confirmed, all you have to do is pack your bags and get ready to travel with the m-ticket which you can show to the bus operator on your mobile before boarding the bus. Online bus ticket booking with redBus is that simple! <br>
+
+                    redBus also offers other exclusive benefits on online bus tickets like flexible ticket reschedule options, easy & friendly cancellation policies, instant payment refund. With live bus tracking feature, you can plan your travel and never miss the bus. You can get the cheapest bus tickets by availing the best discounts for new & existing customers. With redDeals, you can also get exclusive & additional discounts on your online bus ticket booking. You will get 24X7 customer support on call, chat & help to resolve all your queries in English & local languages. <br>
+                    
+                    redBus offers Primo bus services which are specially curated by redBus with highly-rated buses with best-in-class service. With Primo by redBus, you can be assured of safe, comfortable & on-time bus service at no additional cost. With multiple boarding & dropping points available across all major cities in India, you can select as per your convenience and enjoy a smooth travel experience. <br>
+                    
+                    redBus operates in 6 countries including India, Malaysia, Singapore, Indonesia, Peru, and Colombia and has sold over 220 million bus tickets worldwide through the redBus website and app. With over 36 million satisfied customers. redBus is committed to providing a world-class online bus booking experience to its users. <br>
+                    
+                    redBus offers bus tickets from some of the top private bus operators like Orange Travels, VRL Travels, SRS Travels, Chartered Bus, Praveen Travels and state government bus operators like APSRTC, TSRTC, MSRTC, GSRTC, Kerala RTC, TNSTC, RSRTC, UPSRTC, KSRTC Karnataka and more. With redBus, customers have the flexibility of booking bus tickets of different bus types like AC/non-AC, Sleeper, Seater, Volvo, Multi-axle, AC Sleeper, Electric buses and more.</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            
+            
+            
+          </div>
+
+          <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+     </section>
+
+
+
+
+
+     <!-- section for red deals  -->
+
+     <section class="red_deals_container">
+
+        <div class="red">
+            <h1 class="red_head">Bus Booking redDeals on redBus</h1>
+        </div>
+        <div class="red_para"><p>Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!</p></div>
+
+        <div class="red_deal_box">
+             <div class="red_logo_container">
+                <div class="red_logo"><img src="images/rdc-redbus-logo.svg" alt=""></div>
+             </div>
+             
+             <div class="red_deal_lines">
+                 <div><h1>Unlock Unbeatable Exclusive red Deals! 20% OFF</h1></div>
+                 <div><h1>3735 Deals | 1547 Bus Operators | 182568 Routes</h1></div>
+                 
+                </div>
+                <div class="red_deal_button_container">
+                    <button class="red_deal_button">Book Now</button>
+                    
+                </div>
+            </div>
+
+     </section>
 </body>
 </html>
